@@ -1,0 +1,118 @@
+/* style.css */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    background-color: #eaa3ed;
+    color: rgb(12, 12, 12);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #8adaf5;
+}
+
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list li {
+    background: #f4a2f9;
+    color: rgb(27, 25, 25);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.collapsible .content {
+    display: none;
+    padding: 10px 0;
+}
+
+.collapsible .content.open {
+    display: block;
+}
+
+.toggle-button {
+    background-color: #eba0fe;
+    color: rgb(10, 10, 10);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.toggle-button:hover {
+    background-color: #e289f2;
+}
+
+footer {
+    text-align: center;
+    background-color: #100f0f;
+    color: rgb(17, 16, 16);
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+/* PDF Download Button */
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-download:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
